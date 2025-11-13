@@ -16,6 +16,9 @@
 <a href="https://huggingface.co/collections/IAAR-Shanghai/xverify-67e0f6f94c2dc334727da802">
     <img alt="Huggingface" src="https://img.shields.io/badge/🤗_Huggingface-Models-ff9800.svg">
 </a>
+<a href="https://huggingface.co/datasets/IAAR-Shanghai/VAR">
+    <img alt="Huggingface" src="https://img.shields.io/badge/🤗_Huggingface-Datasets-ff9800.svg">
+</a>
 </p>
 
 ## 📘 Introduction
@@ -146,7 +149,8 @@ We present several representative examples:
      ```
    
 5. Data Preparation  
-   * You can directly use the example data from [eval_examples.json](src/xVerify/examples/eval_examples.json) for testing.  
+   * You can obtain the **VAR dataset** (including the training, test, and generalization sets) from [🤗 IAAR-Shanghai/VAR](https://huggingface.co/datasets/IAAR-Shanghai/VAR).
+   * or you can directly use the example data from [eval_examples.json](src/xVerify/examples/eval_examples.json) for testing.  
    * If preparing your own data, ensure it follows the format in [eval_examples.json](src/xVerify/examples/eval_examples.json), with each sample containing the following elements:  
      * **question**: The question text  
      * **llm_output**: The LLM-generated response to the question  
@@ -159,7 +163,7 @@ We present several representative examples:
       }
       ```
    
-6. Start Evaluation  
+7. Start Evaluation  
    * Refer to [demo.ipynb](demo.ipynb) for evaluation, supporting both **single-sample** and **batch** evaluation methods.  
      * 🎯 **Single-Sample Evaluation**
       ```python
