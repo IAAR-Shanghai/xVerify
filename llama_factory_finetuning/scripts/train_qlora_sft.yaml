@@ -1,0 +1,40 @@
+# The configuration file is based on the guidelines from https://github.com/hiyouga/LLaMA-Factory/blob/main/README.md
+
+### Model Configuration
+model_name_or_path: /path/to/your/model
+flash_attn: disabled  # Enable or disable Flash Attention (if applicable)
+
+### Training Method
+stage: sft  # Fine-tuning stage (Supervised Fine-Tuning)
+do_train: true  # Enable training
+finetuning_type: lora  # Fine-tuning method (LoRA)
+lora_rank: 8  # LoRA rank (adjust based on memory and performance trade-off)
+lora_target: all  # Apply LoRA to all layers
+
+### Dataset Configuration
+dataset: train_dataset_name  # Name of the dataset
+template: gemma  # model formatting template
+cutoff_len: 2048  # Maximum sequence length
+overwrite_cache: true  # Whether to overwrite cached preprocessed data
+preprocessing_num_workers: 16  # Number of workers for data preprocessing
+
+### Output and Logging
+output_dir: /path/to/output/directory  # Directory for saving model checkpoints and logs
+logging_steps: 10  # Log training information every N steps
+save_steps: 500  # Save model checkpoint every N steps
+plot_loss: true  # Enable loss visualization
+overwrite_output_dir: true  # Overwrite existing output directory if it exists
+
+### Training Parameters
+per_device_train_batch_size: 1  # Batch size per device
+gradient_accumulation_steps: 8  # Number of accumulation steps for gradient updates
+learning_rate: 1.0e-4  # Learning rate
+num_train_epochs: 1.0  # Total number of training epochs
+lr_scheduler_type: cosine  # Learning rate scheduler type
+warmup_ratio: 0.1  # Warmup ratio for learning rate scheduling
+bf16: true  # Enable bfloat16 training (adjust based on hardware support)
+ddp_timeout: 180000000  # Timeout for Distributed Data Parallel (DDP) training
+
+### Logging & Experiment Tracking
+report_to: wandb  # Report training logs to Weights & Biases
+run_name: your_experiment_name  # Experiment name for tracking

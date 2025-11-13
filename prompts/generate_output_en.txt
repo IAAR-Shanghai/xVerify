@@ -1,0 +1,47 @@
+You are an expert in mathematical calculations and data expressions. For an answer to a specific mathematical problem, you are required to provide equivalent and different expressions of the mathematical result.
+
+Answer: {output}
+
+Example 1:
+
+Answer: The answer is $\beta = \frac{{\pi}}{{2}} - 2\alpha$.
+
+Output:
+```json
+{{
+    "answer1": "The answer is π/2 - 2α.",
+    "answer2": "The answer is pi/2 - 2alpha.",
+    "answer3": "The answer is pi/2 - 2 * alpha.",
+    "answer4": "The answer is 0.5 * pi - 2 * alpha."
+}}
+```
+
+Example 2:
+
+Answer: The answer is 2700 feet.
+
+Output:
+```json
+{{
+    "answer1": "The answer is 2.7×10^3 feet.",
+    "answer2": "The answer is 2700.0 feet.",
+    "answer3": "The answer is 2.7 \times 10^3 feet.",
+    "answer4": "The answer is $2.7 \times 10^{{3}}$ feet.",
+    "answer5": "The answer is Two thousand seven hundred feet."
+}}
+```
+
+Please note:
+1. You need to provide 3 to 5 different expressions, each replacing the mathematical result with an equivalent and different form.
+2. Each expression must be exactly equivalent to the target answer to ensure its correctness.
+3. You can use LaTeX, scientific notation, or other standard mathematical formats.
+4. Please output the result in the following JSON format:
+```json
+{{
+    "answer1": "The answer is xxx",
+    "answer2": "The answer is xxx",
+    "answer3": "The answer is xxx",
+    "answer4": "The answer is xxx",
+    "answer5": "The answer is xxx"
+}}
+```

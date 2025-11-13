@@ -1,0 +1,12 @@
+# The configuration file is based on the guidelines from https://github.com/hiyouga/LLaMA-Factory/blob/main/README.md
+
+### Model Configuration
+model_name_or_path: /path/to/your/model  # Path to the base model
+adapter_name_or_path: /path/to/your/adapter  # Path to the fine-tuned adapter or LoRA checkpoint
+template: gemma  # model formatting template
+
+### Export Settings
+export_dir: /path/to/export/directory  # Directory to save the exported model
+export_size: 5  # Number of model checkpoints to export
+export_device: cpu  # Device to use for export (e.g., "cpu" or "cuda")
+export_legacy_format: false  # Whether to use the legacy export format

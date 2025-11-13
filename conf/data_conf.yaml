@@ -1,0 +1,415 @@
+MMLU-Redux:
+    data_name: MMLU-Redux
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 2000
+        - 1000
+        - 5
+    task_type: natural language understanding
+    task_description: "Please choose the answer from options A to D, corresponding to the question."
+
+MMLU-Redux_enh:
+    data_name: MMLU-Redux_enh
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 2000
+        - 1000
+        - 5
+    task_type: natural language understanding
+    task_description: "Please choose the answer from multiple options, corresponding to the question."
+
+MMLU-Pro:
+    data_name: MMLU-Pro
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 2000
+        - 1000
+        - 5
+    task_type: natural language understanding
+    task_description: "Please choose the answer from options A to J, corresponding to the question."
+
+MMLU-Pro_enh:
+    data_name: MMLU-Pro_enh
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 2000
+        - 1000
+        - 5
+    task_type: natural language understanding
+    task_description: "Please choose the answer from multiple options, corresponding to the question."
+
+DROP:
+    data_name: DROP
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 2000
+        - 1000
+        - 5
+    task_type: reading comprehension
+    task_description: "Please answer the question based on the given paragraph."
+
+GPQA:
+    data_name: GPQA
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 794
+        - 398
+        - 5
+    task_type: multidisciplinary question
+    task_description: "Please choose the answer from options A to D, corresponding to the question."
+
+GPQA_enh:
+    data_name: GPQA_enh
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 794
+        - 398
+        - 5
+    task_type: multidisciplinary question
+    task_description: "Please choose the answer from multiple options, corresponding to the question."
+
+SimpleQA:
+    data_name: SimpleQA
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 2000
+        - 1000
+        - 5
+    task_type: commonsense reasoning
+    task_description: "Please answer the following question."
+
+FRAMES:
+    data_name: FRAMES
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 550
+        - 274
+        - 5
+    task_type: commonsense reasoning
+    task_description: "Please answer the following question."
+
+AIME_2024:
+    data_name: AIME_2024
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 20
+        - 10
+        - 5
+    task_type: math problems
+    task_description: "Please answer the following question."
+
+LiveMathBench_zh:
+    data_name: LiveMathBench_zh
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 96
+        - 47
+        - 5
+    task_type: math problems
+    task_description: "Please answer the following question."
+
+LiveMathBench_en:
+    data_name: LiveMathBench_en
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 94
+        - 46
+        - 5
+    task_type: math problems
+    task_description: "Please answer the following question."
+
+CLUEWSC:
+    data_name: CLUEWSC
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 1548
+        - 1000
+        - 5
+    task_type: coreference resolution
+    task_description: "Please choose the answer from Yes / No, corresponding to the question."
+
+C-Eval:
+    data_name: C-Eval
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 1346
+        - 260
+        - 5
+    task_type: commonsense reasoning
+    task_description: "Please choose the answer from options A to D, corresponding to the question."
+
+C-Eval_enh:
+    data_name: C-Eval_enh
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 1346
+        - 260
+        - 5
+    task_type: commonsense reasoning
+    task_description: "Please choose the answer from multiple options, corresponding to the question."
+
+C-SimpleQA:
+    data_name: C-SimpleQA
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 2000
+        - 1000
+        - 5
+    task_type: commonsense reasoning
+    task_description: "Please answer the following question."
+
+AMC23:
+    data_name: AMC23
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 26
+        - 14
+        - 5
+    task_type: math problems
+    task_description: "Please answer the following question."
+
+OlympiadBench_en:
+    data_name: OlympiadBench_en
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 607
+        - 303
+        - 5
+    task_type: math problems
+    task_description: "Please answer the following question."
+
+OlympiadBench_zh:
+    data_name: OlympiadBench_zh
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 1180
+        - 589
+        - 5
+    task_type: math problems
+    task_description: "Please answer the following question."
+
+MGSM:
+    data_name: MGSM
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 1892
+        - 946
+        - 5
+    task_type: math problems
+    task_description: "Please answer the following question."
+
+GSM8K:
+    data_name: GSM8K
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 2000
+        - 1000
+        - 5
+    task_type: math problems
+    task_description: "Please answer the following question."
+
+MATH:
+    data_name: MATH
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 2000
+        - 1000
+        - 5
+    task_type: math problems
+    task_description: "Please answer the following question."
+
+CMATH:
+    data_name: CMATH
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 1128
+        - 565
+        - 5
+    task_type: math problems
+    task_description: "Please answer the following question."
+
+AgNews:
+    data_name: AgNews
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 2000
+        - 1000
+        - 5
+    task_type: topic classification
+    task_description: "Please choose the answer from World, Sports, Business, or Sci/Tech, corresponding to the question."
+
+Amazon:
+    data_name: Amazon
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 2000
+        - 1000
+        - 5
+    task_type: sentiment analysis
+    task_description: "Please choose the answer from positive / negative, corresponding to the question."
+
+CMNLI:
+    data_name: CMNLI
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 2000
+        - 1000
+        - 5
+    task_type: natural language inference
+    task_description: "Please choose the answer from entailment / contradiction / neutral, corresponding to the question."
+
+ARC:
+    data_name: ARC
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 2000
+        - 1000
+        - 5
+    task_type: commonsense reasoning
+    task_description: "Please choose the answer from multiple options, corresponding to the question."
+
+CHID:
+    data_name: CHID
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 2000
+        - 1000
+        - 5
+    task_type: reading comprehension
+    task_description: "Please choose the answer from multiple options, corresponding to the question."
+
+MMLU:
+    data_name: MMLU
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 1816
+        - 1000
+        - 5
+    task_type: natural language understanding
+    task_description: "Please choose the answer from options A to D, corresponding to the question."
+
+MMLU_enh:
+    data_name: MMLU_enh
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 1816
+        - 1000
+        - 5
+    task_type: natural language understanding
+    task_description: "Please choose the answer from multiple options, corresponding to the question."
+
+CMMLU:
+    data_name: CMMLU
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 2000
+        - 1000
+        - 5
+    task_type: natural language understanding
+    task_description: "Please choose the answer from options A to D, corresponding to the question."
+
+CMMLU_enh:
+    data_name: CMMLU_enh
+    file_name:
+        - train.json
+        - test.json
+        - example.json
+    data_num:
+        - 2000
+        - 1000
+        - 5
+    task_type: natural language understanding
+    task_description: "Please choose the answer from multiple options, corresponding to the question."

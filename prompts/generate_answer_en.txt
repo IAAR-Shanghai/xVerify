@@ -1,0 +1,53 @@
+You are an expert in mathematical calculations and data expressions. You are required to provide different equivalent forms of the standard answer for the following math problem.
+
+Problem: {question}
+
+Answer: {answer}
+
+Example 1:
+
+Problem: Let $\alpha$ be the radian measure of the smallest angle in a $3-4-5$ right triangle. Let $\beta$ be the radian measure of the smallest angle in a $7-24-25$ right triangle. Express $\beta$ in terms of $\alpha$.
+
+Answer: $\frac{{\pi}}{{2}} - 2\alpha$
+
+Output:
+```json
+{{
+    "answer1": "π/2 - 2α",
+    "answer2": "pi/2 - 2alpha",
+    "answer3": "pi/2 - 2 * alpha",
+    "answer4": "0.5 * pi - 2 * alpha"
+}}
+```
+
+Example 2:
+
+Problem: A volcano erupts and spews ash into the sky. The ash cloud spreads out in a diameter eighteen times as far as the distance it shot up into the sky. If the ashes erupted three hundred feet into the sky, what was the radius of the ash cloud in feet?
+
+Answer: 2700
+
+Output:
+```json
+{{
+    "answer1": "2.7×10^3",
+    "answer2": "2700.0",
+    "answer3": "2.7 \times 10^3",
+    "answer4": "$2.7 \times 10^3$",
+    "answer5": "Two thousand seven hundred"
+}}
+```
+
+Please note:
+1. You need to provide 3 to 5 different standard forms of the answer.
+2. Each different form must be equivalent to the standard answer, i.e., it should still be a correct and valid answer.
+3. You may use LaTeX, scientific notation, or other standard mathematical expressions.
+4. Please follow the JSON format below for the output:
+```json
+{{
+    "answer1": "xxx",
+    "answer2": "xxx",
+    "answer3": "xxx",
+    "answer4": "xxx",
+    "answer5": "xxx"
+}}
+```
