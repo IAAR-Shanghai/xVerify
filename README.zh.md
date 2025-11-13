@@ -16,6 +16,9 @@
 <a href="https://huggingface.co/collections/IAAR-Shanghai/xverify-67e0f6f94c2dc334727da802">
     <img alt="Huggingface" src="https://img.shields.io/badge/🤗_Huggingface-Models-ff9800.svg">
 </a>
+<a href="https://huggingface.co/datasets/IAAR-Shanghai/VAR">
+    <img alt="Huggingface" src="https://img.shields.io/badge/🤗_Huggingface-Datasets-ff9800.svg">
+</a>
 </p>
 
 ## 📘 介绍
@@ -136,7 +139,8 @@ xVerify 是一款基于预训练大语言模型微调而来的评估工具，专
      ```
    
 5. 数据准备
-   * 可以直接使用 [eval_examples.json](src/xVerify/examples/eval_examples.json) 中的示例数据进行测试
+   * 你可以从 [🤗 IAAR-Shanghai/VAR](https://huggingface.co/datasets/IAAR-Shanghai/VAR) 获取 **VAR 数据集**（包括训练集、测试集和泛化集）。
+   * 也可以直接使用 [eval_examples.json](src/xVerify/examples/eval_examples.json) 中的示例数据进行快速测试
    * 如果自行准备数据，请参照 [eval_examples.json](src/xVerify/examples/eval_examples.json) 中的数据格式准备数据，需要保证每个样本包含以下元素：
        * question: 问题文本
        * llm_output: LLM 针对问题的问答
@@ -149,7 +153,7 @@ xVerify 是一款基于预训练大语言模型微调而来的评估工具，专
         }
         ```
    
-6. 开始评估
+7. 开始评估
    * 参考 [demo.ipynb](demo.ipynb) 进行评估，支持单样本评估和批量评估两种方式。
        * 🎯 单样本评估
         ```python
