@@ -231,10 +231,31 @@ xVerify 是一款基于预训练大语言模型微调而来的评估工具，专
 
 ## 🔗 引用
 ```
-@article{xVerify,
-      title={xVerify: Efficient Answer Verifier for Reasoning Model Evaluations}, 
-      author={Ding Chen and Qingchen Yu and Pengyuan Wang and Wentao Zhang and Bo Tang and Feiyu Xiong and Xinchi Li and Minchuan Yang and Zhiyu Li},
-      journal={arXiv preprint arXiv:2504.10481},
-      year={2025},
+@inproceedings{chen-etal-2026-xverify,
+    title = "x{V}erify: Efficient Answer Verifier for Reasoning Model Evaluations",
+    author = "Chen, Ding  and
+      Yu, Qingchen  and
+      Wang, Pengyuan  and
+      Hu, Mengting  and
+      Zhang, Wentao  and
+      Wang, Zhengren  and
+      Tang, Bo  and
+      Xiong, Feiyu  and
+      Li, Xinchi  and
+      Wang, Chao  and
+      Yang, Mingchuan  and
+      li, Zhiyu",
+    editor = "Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Jessy  and
+      Elliott, Desmond",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {EMNLP} 2026",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-emnlp.159/",
+    pages = "3335--3371",
+    ISBN = "979-8-89176-462-0"
 }
 ```
