@@ -4,6 +4,9 @@
     xVerify: Efficient Answer Verifier for Reasoning Model Evaluations
 </h1>
 <p align="center">
+<a href="https://aclanthology.org/2026.findings-emnlp.159/" target="_blank">
+    <img src="https://img.shields.io/badge/EMNLP%202026-Findings-B31B1B?style=flat-square" alt="EMNLP 2026" style="height: 20px;">
+</a>
 <a href="https://arxiv.org/abs/2504.10481">
     <img alt="arXiv Paper" src="https://img.shields.io/badge/arXiv-Paper-informational?logo=arxiv&logoColor=white">
 </a>
